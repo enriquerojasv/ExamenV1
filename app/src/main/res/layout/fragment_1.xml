@@ -5,24 +5,28 @@
     android:layout_height="match_parent"
     tools:context=".Fragment1"
     android:orientation="vertical"
-    android:layout_gravity="center_vertical"
+    android:gravity="center_vertical"
     android:layout_marginBottom="3dp">
 
-    <!-- TODO: Update blank fragment layout -->
     <EditText
+        android:id="@+id/edit_f1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
         android:hint="@string/fragment1_placeholder"
-        android:layout_gravity="center_horizontal"  />
+        android:layout_gravity="center_horizontal"
+        android:focusable="true"
+        android:importantForAutofill="no" />
 
     <SeekBar
         android:id="@+id/seekBar_fragment1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:thumbTint="@color/black"
-        android:progressTint="@color/black"/>
+        android:progressTint="@color/black"
+        android:max="20"
+        />
 
     <Button
         android:id="@+id/button1"

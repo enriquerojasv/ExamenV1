@@ -11,21 +11,31 @@
         android:id="@+id/fragment_1"
         android:name="com.androidclase.examenv1.Fragment1"
         android:layout_width="match_parent"
-        android:layout_height="230dp"
+        android:layout_height="220dp"
         tools:layout="@layout/fragment_1" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/dividerVertical"/>
 
     <fragment
         android:id="@+id/fragment_2"
         android:name="com.androidclase.examenv1.Fragment2"
         android:layout_width="match_parent"
-        android:layout_height="230dp"
+        android:layout_height="220dp"
         tools:layout="@layout/fragment_2" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/dividerVertical"/>
 
     <fragment
         android:id="@+id/fragment_3"
         android:name="com.androidclase.examenv1.Fragment3"
         android:layout_width="match_parent"
-        android:layout_height="230dp"
+        android:layout_height="220dp"
         tools:layout="@layout/fragment_3" />
 
 

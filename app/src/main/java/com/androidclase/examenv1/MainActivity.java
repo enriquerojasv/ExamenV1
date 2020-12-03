@@ -11,4 +11,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
+    public void requestToChangeText2(String text, int textSize) {
+        System.out.println("activity" + text + textSize);
+
+        //Fragment2 frag2 = (Fragment2) findViewById(R.id.fragment_2);
+    }
 }
