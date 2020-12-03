@@ -7,7 +7,7 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <fragment
+    <FrameLayout
         android:id="@+id/fragment_1"
         android:name="com.androidclase.examenv1.Fragment1"
         android:layout_width="match_parent"
@@ -19,7 +19,7 @@
         android:layout_height="1dp"
         android:background="?android:attr/dividerVertical"/>
 
-    <fragment
+    <FrameLayout
         android:id="@+id/fragment_2"
         android:name="com.androidclase.examenv1.Fragment2"
         android:layout_width="match_parent"
@@ -31,7 +31,7 @@
         android:layout_height="1dp"
         android:background="?android:attr/dividerVertical"/>
 
-    <fragment
+    <FrameLayout
         android:id="@+id/fragment_3"
         android:name="com.androidclase.examenv1.Fragment3"
         android:layout_width="match_parent"

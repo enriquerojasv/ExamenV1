@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:thumbTint="@color/black"
         android:progressTint="@color/black"
-        android:max="20"
+        android:max="100"
         />
 
     <Button
