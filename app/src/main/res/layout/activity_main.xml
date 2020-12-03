@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <fragment
+        android:id="@+id/fragment_1"
+        android:name="com.androidclase.examenv1.Fragment1"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        tools:layout="@layout/fragment_1" />
+
+    <fragment
+        android:id="@+id/fragment_2"
+        android:name="com.androidclase.examenv1.Fragment2"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        tools:layout="@layout/fragment_2" />
+
+    <fragment
+        android:id="@+id/fragment_3"
+        android:name="com.androidclase.examenv1.Fragment3"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        tools:layout="@layout/fragment_3" />
+
+
+
+
+</LinearLayout>
